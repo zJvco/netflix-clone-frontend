@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/script.js" defer></script>
+    <script src="fontawesome/all.min.js"></script>
+    <title>Netflix Clone</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="left-header-content">
+                <div class="logo-img">
+                    <a href="#"><img src="img/Netflix-Logo.png" alt="logo"></a>
+                </div>
+                <div class="menu-mobile">
+                    <button id="navigation-menu">Navegar <i style="margin: 0 0 3px 5px;" class="fas fa-sort-down"></i></button>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Séries</a></li>
+                        <li><a href="#">Filmes</a></li>
+                        <li><a href="#">Bombando</a></li>
+                        <li><a href="#">Minha lista</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="right-header-content">
+                <ul>
+                    <li>
+                        <button><i class="fas fa-search"></i></button>
+                    </li>
+                    <li>
+                        <button><i class="fas fa-gift"></i></button>
+                    </li>
+                    <li>
+                        <button><i class="fas fa-bell"></i></button>
+                    </li>
+                    <li>
+                        <div class="profile">
+                            <img src="img/profile-img-turtle.png" alt="profile-img">
+                            <i class="fas fa-sort-down"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="previewer-container">
+            <img src="img/capa-house.jpg" alt="previewer-img">
+            <div class="text-and-buttons-container-previewer">
+                <div class="text-prev-content">
+                    <h3>HOUSE OF CARDS</h3>
+                    <p>Nada pode impedir o político sem escrúpulos Frank Underwood de conquistar Washington. Assista agora a nova temporada de House of Cards que está imperdível.</p>
+                </div>
+                <div class="buttons-prev-content">
+                    <button id="playBtn" class="prevBtnPlay">
+                        <i class="fas fa-play"></i>
+                        <span>Assistir</span>
+                    </button>
+                    <button id="infoBtn" class="prevBtnInfo">
+                        <i class="fas fa-info-circle"></i>
+                        <span>Mais informações</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="myList-carousel">
+            <h4>Minha Lista</h4>
+            <div class="all-favorites-carousel">
+                <div class="carousel-images">
+                    <img src="img/mini1.jpg">
+                    <img src="img/mini2.jpg">
+                    <img src="img/mini3.jpg">
+                    <img src="img/mini4.jpg">
+                    <img src="img/mini5.jpg">
+                    <img src="img/mini6.jpg">
+                    <img src="img/mini7.jpg">
+                    <img src="img/mini8.jpg">
+                    <img src="img/mini9.jpg">
+                </div>
+                <button id="next" class="next-button">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                <button id="prev" class="prev-button">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-footer">
+            <div class="social-container">
+                <a href="#"><i style="margin-right: 15px;" class="fab fa-facebook-square"></i></a>
+                <a href="#"><i style="margin-right: 15px;" class="fab fa-instagram-square"></i></a>
+                <a href="#"><i style="margin-right: 15px;" class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="links-footer">
+                <ul>
+                    <li><a href="#">Idioma e legendas</a></li>
+                    <li><a href="#">Audiodescrição</a></li>
+                    <li><a href="#">Centro de ajuda</a></li>
+                    <li><a href="#">Cartão pré-pago</a></li>
+                    <li><a href="#">Imprensa</a></li>
+                    <li><a href="#">Relações com investidores</a></li>
+                    <li><a href="#">Carreiras</a></li>
+                    <li><a href="#">Termos de uso</a></li>
+                    <li><a href="#">Privacidade</a></li>
+                    <li><a href="#">Avisos legais</a></li>
+                    <li><a href="#">Preferências de cookies</a></li>
+                    <li><a href="#">Informações corporativas</a></li>
+                    <li><a href="#">Entre em contato</a></li>
+                </ul>
+            </div>
+            <div class="service-code">
+                <button>Código de serviço</button>
+            </div>
+            <div class="footer-copy">
+                <span>&copy; 1997-2021 Netflix, Inc. {7c4b92d-4y76-w12e-3t45-d2e24fds3gd}</span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
